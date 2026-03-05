@@ -1,16 +1,15 @@
 ---
 manufacturer: LANCOM
-model: GS-3152XSP
-slug: lancom-gs-3152xsp
-part_number: '61486'
+model: XS-3550YUP
+slug: lancom-xs-3550yup
+part_number: '61891'
 comments: >
-  EoS:08/2023 EoL:08/2028 Successor: GS-3652XUP
-  [LANCOM GS-3152XSP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3152XSP/DS_GS-3152XSP_DE.pdf)
+  [LANCOM XS-3550YUP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-XS-3550YUP/DS_XS-3550YUP_DE.pdf)
   [Power Supply SPSU-920 Datasheet](https://www.lancom-systems.com/fileadmin/download/LC-SPSU-920/DS_SPSU-920_EN.pdf)
 u_height: 1
 is_full_depth: false
-airflow: left-to-right
-weight: 5.5
+airflow: front-to-rear
+weight: 6.3
 weight_unit: kg
 module-bays:
   - name: PS1
@@ -218,58 +217,54 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/41
-    label: '41'
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/42
-    label: '42'
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/43
-    label: '43'
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/44
-    label: '44'
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/45
-    label: '45'
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/46
-    label: '46'
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/47
-    label: '47'
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/48
-    label: '48'
-    type: 1000base-t
-    poe_mode: pse
-    poe_type: type2-ieee802.3at
   - name: 10GigabitEthernet 1/1
-    label: '49'
-    type: 10gbase-x-sfpp
+    label: '41'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
   - name: 10GigabitEthernet 1/2
-    label: '50'
-    type: 10gbase-x-sfpp
+    label: '42'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
   - name: 10GigabitEthernet 1/3
-    label: '51'
-    type: 10gbase-x-sfpp
+    label: '43'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
   - name: 10GigabitEthernet 1/4
-    label: '52'
-    type: 10gbase-x-sfpp
+    label: '44'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10GigabitEthernet 1/5
+    label: '45'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10GigabitEthernet 1/6
+    label: '46'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10GigabitEthernet 1/7
+    label: '47'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 10GigabitEthernet 1/8
+    label: '48'
+    type: 10gbase-t
+    poe_mode: pse
+    poe_type: type4-ieee802.3bt
+  - name: 25GigabitEthernet 1/1
+    label: '49'
+    type: 25gbase-x-sfp28
+  - name: 25GigabitEthernet 1/2
+    label: '50'
+    type: 25gbase-x-sfp28
 console-ports:
   - name: com
     type: rj-45
+  - name: USB
+    type: usb-micro-b

@@ -1,22 +1,18 @@
 ---
 manufacturer: LANCOM
-model: GS-3152XSP
-slug: lancom-gs-3152xsp
-part_number: '61486'
-comments: >
-  EoS:08/2023 EoL:08/2028 Successor: GS-3652XUP
-  [LANCOM GS-3152XSP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3152XSP/DS_GS-3152XSP_DE.pdf)
-  [Power Supply SPSU-920 Datasheet](https://www.lancom-systems.com/fileadmin/download/LC-SPSU-920/DS_SPSU-920_EN.pdf)
+model: GS-3652XP
+slug: lancom-gs-3652xp
+part_number: '61878'
+comments: '[LANCOM GS-3652XP Data sheet](https://www.lancom-systems.de/fileadmin/download/LC-GS-3652XP/DS_GS-3652XP_DE.pdf)'
 u_height: 1
 is_full_depth: false
-airflow: left-to-right
+airflow: side-to-rear
 weight: 5.5
 weight_unit: kg
-module-bays:
+power-ports:
   - name: PS1
-    position: '1'
-  - name: PS2
-    position: '2'
+    type: iec-60320-c14
+    maximum_draw: 870
 interfaces:
   - name: GigabitEthernet 1/1
     label: '1'
@@ -198,64 +194,64 @@ interfaces:
     type: 1000base-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/37
+  - name: 2.5GigabitEthernet 1/1
     label: '37'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/38
+  - name: 2.5GigabitEthernet 1/2
     label: '38'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/39
+  - name: 2.5GigabitEthernet 1/3
     label: '39'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/40
+  - name: 2.5GigabitEthernet 1/4
     label: '40'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/41
+  - name: 2.5GigabitEthernet 1/5
     label: '41'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/42
+  - name: 2.5GigabitEthernet 1/6
     label: '42'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/43
+  - name: 2.5GigabitEthernet 1/7
     label: '43'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/44
+  - name: 2.5GigabitEthernet 1/8
     label: '44'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/45
+  - name: 2.5GigabitEthernet 1/9
     label: '45'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/46
+  - name: 2.5GigabitEthernet 1/10
     label: '46'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/47
+  - name: 2.5GigabitEthernet 1/11
     label: '47'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
-  - name: GigabitEthernet 1/48
+  - name: 2.5GigabitEthernet 1/12
     label: '48'
-    type: 1000base-t
+    type: 2.5gbase-t
     poe_mode: pse
     poe_type: type2-ieee802.3at
   - name: 10GigabitEthernet 1/1
